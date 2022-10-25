@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Retina';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/retina/Retina-Book.woff2);
+}
+
+@font-face {
+  font-family: 'Retina';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./fonts/retina/Retina-Medium.woff2);
+}
+
+@font-face {
+  font-family: 'Escrow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/escrow/Escrow+Display+Condensed+Bold.woff2);
+}
+@font-face {
+  font-family: 'Escrow Condensed';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/escrow/Escrow+Display+Condensed+Italic.woff2);
+}
+@font-face {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  // font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/TimesNewRoman.ttf);
+}
+@font-face {
+  font-family: 'Univers';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/univers/UniversBlack.ttf);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
